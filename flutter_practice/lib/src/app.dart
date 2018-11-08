@@ -33,7 +33,7 @@ class AppState extends State<App> {
         body: ImageList(imageModels),
         floatingActionButton: FloatingActionButton(
           child: Icon( Icons.add ),
-          onPressed: fetchImage,
+          onPressed: fetchImage ,
         ),
         appBar: AppBar(
           title: Text("Let's see some image!"),
